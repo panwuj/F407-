@@ -1,0 +1,613 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Reign 89769, Reign, LIC=MGX8T-RVID9-NSSYQ-NADDT-DIAFZ-XA5WB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\89769\Desktop\F407·É¿Ø\project\TaoXun_Copter.uvprojx
+Project File Date:  09/05/2017
+
+<h2>Output:</h2>
+Build target 'FlightCode'
+compiling main.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+main.c: 9 warnings, 1 error
+compiling stm32f4xx_it.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+stm32f4xx_it.c: 9 warnings, 1 error
+compiling exit.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\exit.c: 9 warnings, 1 error
+compiling Attitude_EKF.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\Attitude_EKF.c: 9 warnings, 1 error
+compiling Attitude_CF.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\Attitude_CF.c: 9 warnings, 1 error
+compiling imu.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\imu.c: 9 warnings, 1 error
+compiling controller.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\controller.c: 9 warnings, 1 error
+compiling hmc5883l.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\hmc5883l.c: 9 warnings, 1 error
+compiling mpu6050.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\mpu6050.c: 9 warnings, 1 error
+compiling mpu6500.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\mpu6500.c: 9 warnings, 1 error
+compiling MS5611.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\MS5611.c: 9 warnings, 1 error
+compiling params.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\params.c: 9 warnings, 1 error
+compiling RemoteControl.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\RemoteControl.c: 9 warnings, 1 error
+compiling communicate.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\communicate.c: 9 warnings, 1 error
+compiling FengQi_Link.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\FengQi_Link.c: 9 warnings, 1 error
+compiling RAPOO_Link.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\RAPOO_Link.c: 9 warnings, 1 error
+compiling AltitudeEstimateEKF.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\AltitudeEstimateEKF.c: 9 warnings, 1 error
+compiling sensor.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\sensor.c: 9 warnings, 1 error
+compiling KS103.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\KS103.c: 9 warnings, 1 error
+compiling BaseFilter.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\BaseFilter.c: 9 warnings, 1 error
+compiling GPS.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\GPS.c: 9 warnings, 1 error
+compiling PositionEstimateEKF.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\PositionEstimateEKF.c: 9 warnings, 1 error
+compiling flight.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\flight.c: 9 warnings, 1 error
+compiling ANO_Link.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\ANO_Link.c: 9 warnings, 1 error
+compiling sdio_sdcard.c...
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\sdio_sdcard.c: 0 warnings, 1 error
+compiling pixy.c...
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5190): warning:  #223-D: function "__smuad" declared implicitly
+      acc = (q31_t) __SMUAD(S->A0, in);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5194): warning:  #223-D: function "__smlald" declared implicitly
+      acc = __SMLALD(S->A1, (q31_t) *vstate, acc);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5344): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5448): warning:  #223-D: function "__qsub" declared implicitly
+      *pIb = __QSUB(product2, product1);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5576): warning:  #223-D: function "__qadd" declared implicitly
+      *pId = __QADD(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5579): warning:  #223-D: function "__qsub" declared implicitly
+      *pIq = __QSUB(product4, product3);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5696): warning:  #223-D: function "__qsub" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\arm_math.h(5699): warning:  #223-D: function "__qadd" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+..\Modules\inc\GPS.h(29): warning:  #1-D: last line of file ends without a newline
+   
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\Modules\src\pixy.c: 9 warnings, 1 error
+compiling port.c...
+..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c(79): error:  #35: #error directive: This port can only be used when the project options are configured to enable hardware floating point support.
+        #error This port can only be used when the project options are configured to enable hardware floating point support.
+..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c: 0 warnings, 1 error
+compiling diskio.c...
+..\Modules\inc\sdio_sdcard.h(4): error:  #5: cannot open source input file "cmsis_armcc.h": No such file or directory
+  #include "cmsis_armcc.h"
+..\FATFS\src\diskio.c: 0 warnings, 1 error
+".\Objects\TaoXun_Copter.axf" - 28 Error(s), 225 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\89769\Desktop\F407·É¿Ø\project\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+Target not created.
+</pre>
+</body>
+</html>
